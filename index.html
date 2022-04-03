@@ -1,51 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="WDR4CSS.css">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title></title>
+ <script src="wdr assignment.js"></script>
 </head>
-<body width="1080px"height="960px" style="background-image: url(https://wallpapercave.com/wp/wp2067622.jpg);">
-    <ul><a href="WDR.HTML">BASIC INTRODUCTION</a>
-        <a href="WDR4.HTML">TOEI ANIMATION CO</a>
-      </ul>
+<body>
+ <img id="two" src="data:image/jpeg;base64,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"width='200px' height='200px'>
+<button onmouseover="picture()">As long as you live, you should do something.</button>
 
- <center><form action="123.php">
-  <center><h4 style ="font-family:'festive';">kanem rider</h4></center>
-  <center><h3 style ="font-family:'festive';">which kamen rider do you like best</h3></center>
-  <hr>
-  <label for='name'>Name:</label>
-  <input type='text' name='name'><br>
-  <label for='birthday'>DOB:</label>
-  <label for='time'>Time of born</label>
-  <input type='date' name='birthday'><br>
-  <label for='gender'>Gender:</label>
-  <select name='gender'>
-   <option name='male'>Male</option>
-   <option name='female'>Female</option>
-  </select><br><hr>
-   <label for='Favorite Kamen Rider'>Favorite Kamen Rider:</label>
-   <input type='checkbox' name='w'>
-   <label for='w'>W</label>
-   <input type='checkbox' name='decade'>
-   <label for='decade'>Decade</label>
-   <input type='checkbox' name='others'>
-   <label for='others'>others</label><br>
-   <hr>
-   <label for='Time watch videos everyday'>Time watch videos everyday:</label>
-   <input type='radio' name='Time watch videos everyday'>
-   <label for='less than 1 hour'>less than 1 hour</label>
-   <input type='radio' name='Time watch videos everyday'>
-   <label for='1-3 hours'>1-3 hours</label><br>
-   <input type='radio' name='Time watch videos everyday'>
-   <label for='more than 3 hours'>more than 3 hours</label><br><hr>
-   <label for='message'>Name of your favourite kamen rider:</label>
-   <textarea name='message' rows='1' cols='7'></textarea><br>
-   <label for='Email'>Email</label>
-   <input type='Email' name='Email'><br>
-   <label for='file'>Resume(photo of your favourite kamen rider):</label>
-   <input type='file' name='file'><br>
-   <hr>
-   <input type='submit'>
-  </form></center>
-  <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIqB6kzhpOJXN7SHertzRLvs5-ym6BmPayA&usqp=CAU"></center>
+<h1 id="one">Tiga Ultraman</h1>
+<button onclick="change()">Although the past cannot be changed, the future can continue to struggle.</button>
+
+<p id="three">Ace Ultraman</p >
+<button onclick="para()">To protect this planet, use our hands.</button>
+
+<p id="five"></p >
+<button onclick='sum()'>You must have a dream, even if you grow up, don't give up your dream.</button>
+
+
+<button onkeydown='c()'> If you can do it or not, how do you know if you don't try it?</button>
+
+<p id="six"></p >
+<button onclick="sum1()">It is because there is light that there is darkness, and at the same time, it is because of darkness that there is light.</button>
+<h1 id="q6">answer</h1>
+<button onclick="q6()">As long as there is courage in the heart and the enthusiasm will never be extinguished, human beings will one day bring light to themselves! <h1>.</button>
+
 </body>
 </html>
